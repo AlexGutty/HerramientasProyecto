@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { ShoppingCart, ArrowRight } from "lucide-react"
 
-import { Button } from "../components/ui/button"
+import { Button } from "../components/ui/Button"
 import { Separator } from "../components/ui/Separator"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../components/ui/Card"
 import { ItemsCarrito } from "../components/ItemsCarrito"
