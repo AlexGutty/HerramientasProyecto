@@ -4,7 +4,7 @@ import { useEffect } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { ArrowLeft, CreditCard } from "lucide-react"
 
-import { Button } from "../components/ui/button"
+import { Button } from "../components/ui/Button"
 import { Separator } from "../components/ui/Separator"
 import { Card, CardContent } from "../components/ui/Card"
 import { FormularioPago } from "../components/FormularioPago"
