@@ -1,44 +1,15 @@
-# HerramientasProyecto
-
-```mermaid
 gantt
-    title Herramientas Proyecto
+    title Historial de Commits Proyecto
     dateFormat  YYYY-MM-DD
-    section Tareas
-    Planificación       :a1, 2025-05-01, 5d
-    Desarrollo          :after a1, 10d
-    Pruebas             :2025-05-20, 7d
-    Lanzamiento         :2025-05-28, 3d
-
-
-# Historial de Commits (Abril - Mayo 2025)
-
-| Fecha       | Descripción                                   | 27 Abr | 28 Abr | 29 Abr | ... | 12 May | 13 May | 14 May | 15 May | 16 May | 17 May | 18 May |
-|-------------|-----------------------------------------------|--------|--------|--------|-----|--------|--------|--------|--------|--------|--------|--------|
-| 27 Abr      | Refactor: mejorar apartado de home            | ██████ |        |        | ... |        |        |        |        |        |        |        |
-| 27 Abr      | Feat: nuevos jsx marcas y almacenador         | ██████ |        |        | ... |        |        |        |        |        |        |        |
-| 27 Abr      | Fix: corregir errores con productos            | ██████ |        |        | ... |        |        |        |        |        |        |        |
-| 27 Abr      | Feat: estilos para Catalogo, contactanos      | ██████ |        |        | ... |        |        |        |        |        |        |        |
-| 27 Abr      | Feat: vistas y estilos página principal        | ██████ |        |        | ... |        |        |        |        |        |        |        |
-| 18 May      | Styles: creación y modificación de styles     |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Refactor: función con base de datos            |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Feat: creación de productdetails               |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Refactor: cambio de nombre y agregados         |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Feat: creación de Login y Register             |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Feat: dashboard y UserListPage                 |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Refactor: simplificación de código             |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Fix: corrección main.jsx                        |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Feat: creación de AuthContext                   |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Fix: mejora en TestimonialSection               |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Feat: creación de protector de rutas            |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Fix: corrección carta de productos              |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Feat: creación de filtro                         |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Feat: componente añadir producto                |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Fix: borrado de comentarios                      |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Fix: corrección header                           |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Fix: mejora en FeaturedWatches.jxs              |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Feat: creación de componente UserList           |        |        |        | ... |        |        |        |        |        |        | ██████ |
-| 18 May      | Fix: actualización BrandsCarousel               |        |        |        | ... |        |        |        |        |        |        | ██████ |
-
-*Nota:* Los bloques ██████ indican actividad el día indicado.
-
+    section Abril 2025
+    Refactor Home y estilos    :a1, 2025-04-27, 3d
+    Nuevos jsx y correcciones  :after a1, 3d
+    section Mayo 2025
+    Styles y refactor BD       :b1, 2025-05-18, 3d
+    Creación ProductDetails    :after b1, 3d
+    Login y Register           :after b1, 3d
+    Dashboard y UserListPage   :after b1, 3d
+    Simplificación Código      :after b1, 3d
+    Corrección main.jsx        :after b1, 3d
+    Creación AuthContext       :after b1, 3d
+    Mejoras y fixes varios     :after b1, 3d
