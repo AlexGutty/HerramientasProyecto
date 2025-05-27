@@ -5,7 +5,7 @@ gantt
     dateFormat  YYYY-MM-DD
     section Abril 2025
     Refactor Home y estilos    :a1, 2025-04-27, 3d
-    Nuevos jsx y correcciones  :after a1, 3d
+    Nuevos jsx y correcciones  :2025-05-05, 3d
     section Mayo 2025
     Styles y refactor BD       : 2025-05-10, 3d
     Creación ProductDetails    :2025-05-12, 1d
