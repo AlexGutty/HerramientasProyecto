@@ -2,7 +2,7 @@
 
 ```mermaid
 gantt
-    title Proyecto ejemplo
+    title Herramientas Proyecto
     dateFormat  YYYY-MM-DD
     section Tareas
     Planificación       :a1, 2025-05-01, 5d
