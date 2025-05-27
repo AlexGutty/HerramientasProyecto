@@ -1,3 +1,5 @@
+
+```mermaid
 gantt
     title Historial de Commits Proyecto
     dateFormat  YYYY-MM-DD
